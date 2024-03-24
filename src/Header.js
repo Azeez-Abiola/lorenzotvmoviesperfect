@@ -118,10 +118,11 @@ const Header = ({
       <div className="w-full h-[80px] px-[50px] text-slate-100 bg-[#020d18] hidden lg:flex items-center border-slate-700 border-b fixed top-0 left-0 z-[100]">
         {/**logo div */}
         <div className="flex items-center">
-          <img alt="logo" src={logo} className="w-[30px] h-[30px] rounded-lg" />
-          <p className="font-[700] tracking-wider text-[1.5rem] ml-2">
-            LORENZO TV
+          <img alt="logo" src={logo} className="w-[30px] h-[30px] rounded-lg" /> 
+          <p className="font-[700] tracking-wider text-[1rem] ml-2">
+            LORENZOTV<span className="text-red-600">MOVIES</span>
           </p>
+          
         </div>
         {/**logo div */}
 
@@ -209,7 +210,7 @@ const Header = ({
           </Link>
           <a
             onMouseOver={handleMouseOut}
-            href="http://Lorenzotvblog.netlify.app"
+            href="http://blog.lorenzotvmedia.com"
             target="_blank"
             rel="noreferrer"
             className="px-[10px] py-[5px] rounded-md hover:bg-[#b91c1c] hover:translate-y-[6px] transition-all duration-300"
@@ -354,7 +355,7 @@ const Header = ({
               </Link>
             </li>
             <li className="my-4">
-              <a href="http://Lorenzotvblog.netlify.app" onClick={hideDropdown}>
+              <a href="http://blog.lorenzotvmedia.com" onClick={hideDropdown}>
                 <div className="w-full">Blog</div>
               </a>
             </li>

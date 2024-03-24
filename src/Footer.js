@@ -19,9 +19,11 @@ const Footer = () => {
                 src={logo}
                 className="w-[20px] h-[20px] rounded-lg"
               />
-              <p className="font-[700] tracking-wider text-[1.2rem] ml-2">
-                LORENZO TV
-              </p>
+               <p className="font-[700] tracking-wider text-[1rem] ml-2">
+            LORENZOTV<span className="text-red-600">MOVIES</span>
+          </p>
+          
+          
             </div>
           </li>
           <li className="w-[fit-content] mb-2 cursor-pointer hover:text-red-500">
@@ -31,7 +33,7 @@ const Footer = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li className="w-[fit-content] mb-2 cursor-pointer hover:text-red-500">
-            <a href="http://Lorenzotvblog.netlify.app">Blog</a>
+            <a href="http://blog.lorenzotvmedia.com">Blog</a>
           </li>
           <li className="w-[fit-content] p-2 bg-red-700 rounded-lg hover:bg-[inherit] border-red-700 border-2 mb-2 cursor-pointer hover:text-red-500">
             <Link to="/advertisement">Advertise</Link>

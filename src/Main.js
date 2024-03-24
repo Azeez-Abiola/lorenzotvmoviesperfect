@@ -142,10 +142,12 @@ const Main = ({
         <section className="w-full min-h-screen bg-[url('./images/lorenzo-bg-image.png')] bg-repeat">
           <div className="w-full min-h-screen bg-[#020d18]/95 px-4 py-[100px] md:p-[50px] block md:flex justify-between items-center">
             <div className="w-full md:w-1/2">
-              <h1 className="text-[1.5rem] text-red-600 font-[700]">
-                LORENZO TV
-              </h1>
-
+               <h1 className="font-[700] tracking-wider text-[1.5rem] ml-2">
+            LORENZOTV<span className="text-red-600">MOVIES</span>
+          </h1>
+              
+              
+              
               <p className="text-[2.3rem] md:text-[3.5rem] font-[700]">
                 Unlimited <span className="text-red-600">Movies</span>
                 <br />
