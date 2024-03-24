@@ -310,7 +310,7 @@ const Main = ({
               />
               <p data-aos="fade-up" data-aos-duration="800">
                 Tons of movies to choose from in all genres! Amazing
-                blockbusters all here at LorenzoTV. <br /> Download and watch
+                blockbusters all here at Lorenzotv<span  className="text-red-600" >movies </span> <br /> Download and watch
                 offline in...
               </p>
               <p
