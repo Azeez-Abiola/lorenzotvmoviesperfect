@@ -257,8 +257,8 @@ const Header = ({
         <Link to="/" className="mr-auto">
           <div className="flex items-center">
             <img alt="logo" src={logo} className="w-6 h-6 rounded-lg" />
-            <p className="font-[700] tracking-wider text-[1.5rem] ml-2">
-              LORENZO TV
+            <p className="font-[700] tracking-wider text-[1rem] ml-2">
+            LORENZOTV<span className="text-red-600">MOVIES</span>
             </p>
           </div>
         </Link>
